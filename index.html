@@ -14,7 +14,7 @@
       
         <nav>
   
-            <div class="conteneur">
+            <div id="conteneur1">
                 <div class="box">
                     <!-- Icone qui suis-je -->
                     <figure>
@@ -38,8 +38,10 @@
                 <div class="box">
                     <!-- Icone mes projets -->
                     <figure>
+                    <a href="#sectionMesProjets">
                         <img src="images/projets.png" alt="logo menu mes projets" />
                         <figcaption> Mes projets </figcaption>
+                    </a>
                     </figure>
                 </div>
 
@@ -72,14 +74,14 @@
 
             <div id="fleche1">
                 <a href="#sectionQuiSuis-Je">
-                    <img src="images/fleche.png" alt="flèche vers prochaine section" />
+                    <img src="images/fleche.png" alt="flèche vers prochaine section" width="50" height="50" />
                 </a>
             </div>
 
     </header>
-
+<!-----------------------------------QUI SUIS-JE------------------------------------------->
     <main>
-        <section id="sectionQuiSuis-Je">  <!-- Première section  "QUI SUIS-JE" -->
+        <section id="sectionQuiSuis-Je">
   			<div class="sectionEnTete">	
   				<div class="retourAccueil">
                 	<figure>
@@ -133,17 +135,17 @@
             <div id="fleche2">
             	<figure>
                 	<a href="#sectionMesCompétences">
-                   		<img src="images/fleche.png" alt="flèche vers prochaine section"/>
+                   		<img src="images/fleche.png" alt="flèche vers prochaine section" width="50" height="50" />
                 	</a>
             	</figure>
             </div>
 
 
         </section>
-        <!--------------------------------------------------------------------------->
+<!-----------------------------------MES COMPETENCES------------------------------------------->
 
  
-        <section id="sectionMesCompétences">  <!-- Deuxième section "Mes compétences" -->
+        <section id="sectionMesCompétences">
   			<div class="sectionEnTete">	
   				<div class="retourAccueil">
                 	<figure>
@@ -162,7 +164,7 @@
                	</div>   
            </div>
            
-      	<div id="conteneur">
+      	<div id="conteneur2">
       		<div class="langageProgrammation"> <!-- Python -->
       			<img src="images/python.png" alt="logo python" width="100" height="100">
       			<div id="barrePython"></div>
@@ -183,15 +185,67 @@
 
             <div id="fleche3">
             	<figure>
-                	<a href="#sectionQuiSuis-Je">
-                   		<img src="images/fleche.png" alt="flèche vers prochaine section"/>
+                	<a href="#sectionMesProjets">
+                   		<img src="images/fleche.png" alt="flèche vers prochaine section" width="50" height="50" />
+                	</a>
+            	</figure>
+            </div>
+        </section>
+
+<!-----------------------------------MES PROJETS------------------------------------------->
+
+		<section id="sectionMesProjets"> 
+  			<div class="sectionEnTete">	
+  				<div class="retourAccueil">
+                	<figure>
+                		<a href="#sectionAccueil">
+                		<img src="images/accueil.png" alt="bouton retour vers l'accueil" />
+                		<figcaption>Accueil</figcaption>
+                		</a>
+               		</figure>
+               	</div>
+
+                <div class="logo">
+                	<figure>
+                    	<img src="images/projets.png" alt="logo menu mes compétences" />
+                    	<figcaption>Mes projets</figcaption>
+                	</figure>
+               	</div>   
+           </div>
+
+           <div id="conteneur3">
+           		<div id="pendu">
+           			<figure>
+           				<figcaption>Jeu du pendu<br />en Python</figcaption>
+           				<img src="images/pendu.png" title="Télercharger" width="300" height="300" alt="Logo du pendu"/>
+           			</figure>
+           			<img src="images/download.png" title="Télercharger" alt="Icone de téléchargement" title="Télercharger" width="100" height="100"/>
+           		</div> 
+           		<div id="pfc">
+           			<figure>
+           				<figcaption>Jeu du pierre/feuille/ciseaux<br />en javascript</figcaption>
+           				<img src="images/pfc.png" width="300" height="300" alt="Logo du pierre feuille ciseaux"/>
+           			</figure>
+           			<img src="images/download.png" title="Télercharger" alt="Icone de téléchargement" title="Télercharger" width="100" height="100"/>
+           		</div> 
+           		<div id="GitHub">
+           			<figure>
+           				<figcaption id="texteGitHub">GitHub</figcaption>
+           				<img src="images/github.png" width="250" height="250" alt="Logo GitHub"/>
+           			</figure>
+           			<img src="images/voir.png" title="Visiter" alt="Icone de téléchargement" width="80" height="80"/>
+           		</div> 
+           </div>
+
+            <div id="fleche4">
+            	<figure>
+                	<a href="#sectionMesProjets">
+                   		<img src="images/fleche.png" title="prochaine section" alt="flèche vers prochaine section" width="50" height="50" />
                 	</a>
             	</figure>
             </div>
 
-
         </section>
-
     </main>
 
 </body>
