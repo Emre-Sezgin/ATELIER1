@@ -12,6 +12,12 @@ a{
 	color:black; 
 }
 
+.legende{
+	font-style: italic;
+	font-size: 18px;
+	color:#333333;
+}
+
 #conteneur1{	/* MENU DE NAVIGATION ICONE (ACCUEIL) */
 	display: flex;
 	justify-content: center;
@@ -217,6 +223,93 @@ a{
 }
 
 #fleche4:hover img{
+	transform:scale(1.15);  
+	transition: 0.6s;		
+}
+
+/*------------------------------ SECTION MON PARCOURS------------------------------*/
+
+#conteneur4{ /*CCI Campus + SCHMIDT GROUPE */
+	display: flex;
+	align-items: center;
+	margin-right: 80px;  
+	text-align: center;
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	margin-left: 150px;
+	flex-wrap:wrap;
+}
+
+#cci{
+	margin-left: 120px;
+}
+
+#descriptionCCI{    /* Resolution image n'est pas la même */
+	float:right; 
+	margin-left: 30px;    /* Espace entre logo et description */
+	margin-top: -30px;	  /* Alignement avec le logo en hauteur */
+	text-align: justify;
+}
+#cci:hover {
+	transform:scale(1.15);  
+	transition: 0.6s;		
+}
+
+
+#schmidt{
+	margin-top: -80px;
+	margin-left:260px;
+}
+#descriptionSchmidt{
+	float:right; 
+	margin-left: -130px;    /* Espace entre logo et description */
+	margin-top: 90px;	  /* Alignement avec le logo en hauteur */
+	text-align: justify;
+}
+#schmidt:hover {
+	transform:scale(1.15);  
+	transition: 0.6s;		
+}
+
+#conteneur5{ /* IFPASS + AG2R */
+	display: flex;
+	align-items: center;
+	margin-right: 80px;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	margin-left: 150px;
+	flex-wrap:wrap;
+}
+
+#ifpass{
+	margin-left: 70px;
+}
+#descriptionIFPASS{    /* Resolution image n'est pas la même */
+	float:right; 
+	margin-left: 30px;    /* Espace entre logo et description */
+	margin-top: -30px;	  /* Alignement avec le logo en hauteur */
+	text-align: justify;
+}
+#ifpass:hover {
+	transform:scale(1.15);  
+	transition: 0.6s;		
+}
+
+
+#AG2R{
+	margin-top: -10px;
+	margin-left: 400px;
+}
+#descriptionAG2R{
+	float:right; 
+	margin-left: 30px;    /* Espace entre logo et description */
+	margin-top: -30px;	  /* Alignement avec le logo en hauteur */
+	text-align: justify;
+}
+#AG2R:hover {
 	transform:scale(1.15);  
 	transition: 0.6s;		
 }
