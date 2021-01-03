@@ -25,7 +25,7 @@ h3{
 
 .legende{
 	font-style: italic;
-	font-size: 18px;
+	font-size: 16px;
 	color:#333333;
 }
 
@@ -366,3 +366,38 @@ h3{
 	transform:scale(1.15);  
 	transition: 0.6s;		
 }
+
+/*------------------------------ ME CONTACTER ------------------------------*/
+#sectionMeContacter{
+	height: 90vh;
+}
+
+#conteneur8{
+	display: flex;
+	justify-content: space-around;
+	display:flex;
+	align-items: center;
+	margin-top: 150px;
+}
+
+.reseauxSociaux:hover{
+	transform:scale(1.15);  
+	transition: 0.6s;
+}
+
+footer{
+	text-align: center;
+}
+
+#pied{
+	display: flex;
+	height: 50px;
+	background-color: #A9A9A9;
+	justify-content: center;
+	border-top: #333333 1px solid;
+	margin-right: -8px;
+	margin-left: -8px;
+	margin-bottom: -8px;
+}
+
+
